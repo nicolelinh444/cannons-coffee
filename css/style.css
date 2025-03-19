@@ -55,13 +55,6 @@ header {
     justify-content: center;
     padding: 1rem;
 }
-/* Added another flexbox so that logo will be next to text */
-.logo {
-    display: flex;
-    flex-flow: nowrap;
-    justify-content: space-between;
-    gap: 1rem;
-}
 nav ul {
     display: flex;
     flex-flow: nowrap;
