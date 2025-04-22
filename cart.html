@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Iced Coffee</title>
+    <title>Cart</title>
     <link rel="stylesheet" href="css/style.css">
 </head>
 <body>
@@ -21,16 +21,27 @@
             </ul></nav>
         </header>
         <div class="grid1">
-            <img src="images/iced.jpg" alt="Iced coffee in a mug with a straw">
-            <!-- Im pretty sure this picture is actually a Moscow Mule -->
-            <div class="card"><h2>Iced Coffee</h2>
-            <p>Our most popular brew, with ice! As seen on Tik Tok.</p>
-            <a href="" class="green-button" target="_blank">Order Now</a>
+            <h1>Login</h1>
+       <form>
+         <!-- name -->
+         <label for="name">Name:</label><br>
+         <input type="text" id="name" name="name" required><br><br>
+         <!-- email -->
+          <label for="email">Email:</label><br>
+          <input type="email" id="email" name="email" required><br><br>
+         <!-- password -->
+         <label for="pw">Password:</label><br>
+         <input type="password" id="pw" name="pw" required><br><br>
+          <!-- submit button -->
+          <input class="green-button" type="submit" value="Submit"><br><br>
+       </form>
+       <div class="container"></div>
         </div>
         </div>
         <footer>
             <img src="images/logo-footer.webp" alt="Cannons Coffee, Beans of Joy! Est. 2014">
             <p>&copy; 2024 Cannons Coffee. All Rights Reserved.</p>
+            <script src="js/cart.js"></script>
         </footer>
     </div>
 </body>

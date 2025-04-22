@@ -91,6 +91,10 @@ nav a {
     margin: 0 auto;
     text-transform: uppercase;
     text-decoration: none;
+    transition: background-color 0.3s ease;
+}
+.green-button:hover {
+    background-color: var(--catalina)
 }
 .cards {
     background-color: var(--blue);
